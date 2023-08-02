@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LoginStyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
+            
+            <img src="data:image/png;base64,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">
+            <h1 class="logo-heading">Welcome to your website! Please log in to continue</h1>
+        </div>
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <h1>Username:</h1>
+            <input type="text" placeholder="Enter Username" class="mb-3">
+            <h1>Password:</h1>
+            <input type="password" placeholder="Enter Password" class="mb-4">
+            <button class="button">Login</button>
+        </div>
+    </div>
+</div>
+<body>
+</body>
+</html>
