@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-background{
+    background-image: url("https://img.freepik.com/free-photo/lagoon-white-ocean-summer-sand_1203-5354.jpg?w=996&t=st=1690195327~exp=1690195927~hmac=27bc1882a3ebfa77278ac77d63030f728c3dcc19a656a104ffd6a04fff73a152");
+    height: 100vh;
+    background-size: cover;
+}
+.main-background{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 8px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.main-heading{
+    font-family: "momoton";
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.button{
+    background-color: #25C2A7;
+    color:aliceblue;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+
+}
+.paragraph{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+}
