@@ -1,0 +1,23 @@
+/* .Category-container{
+    display: flex;
+    flex-direction: row;
+} */
+.save-button{
+    color: white;
+    background-color: rgb(19, 19, 57);
+    padding: 6px;
+    width: 132px;
+}
+.dimiss-button{
+    color: rgb(19, 19, 57); 
+    padding: 6px;
+    background-color: white;
+    width: 132px;
+}
+#modal-footer{
+    justify-content: left;
+}
+.left-side-headings{
+    font-size: 18px;
+    font-weight: 600;
+}
