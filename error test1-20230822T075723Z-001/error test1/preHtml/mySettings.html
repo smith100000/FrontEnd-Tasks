@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Welcome to BREW</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/profile.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light border">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">Brew</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="./contactUs.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./forQueries.html" class="nav-link">For Queries</a>
+                    </li>
+                </ul>
+                <!--
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item"><a href="#" class="nav-link"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            -->
+
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="javascript:void(0)">
+                            <i class="fa fa-user"></i> Mr. Virat Kohli </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-gear"></i> My Account</a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item waves-effect waves-light" href="./myOrders.html">Orders</a>
+                            <a class="dropdown-item waves-effect waves-light" href="./myProfile.html">Profile</a>
+                            <a class="dropdown-item waves-effect waves-light active" href="./mySettings.html">Settings</a>
+                            <a class="dropdown-item waves-effect waves-light" href="#">Log out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-1">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active"><i class="fa fa-folder-open"></i> My Settings</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="container emp-profile coreData">
+
+        <form method="post">
+            <div class="row col-12">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="profile-head">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Subscriptions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Change Password</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Current Subscription</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>-NA-</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Current Subscription End Date</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>-NA-</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Last Subscription</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>-NA-</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Last Subscription End Date</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>-NA-</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Email Alerts</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Opt-In</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Phone Alerts</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Opt-Out</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Account Status</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>ACTIVE</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#"><button class="btn pull-right reqBtn"><i class="fab fa-phoenix-squadron"></i> Change Subscription</button></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Last Password Change</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>11:23 PM 24th Jan 2019</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#"><button class="btn pull-right reqBtn"><i class="fab fa-phoenix-squadron"></i> Change Password</button></i><a>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>           
+        </div>
+
+<footer id="sticky-footer" class="py-2 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Brew Virtual Constructions</small>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

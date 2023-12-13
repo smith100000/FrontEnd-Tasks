@@ -1,0 +1,202 @@
+body{
+    font-family: 'Varela', sans-serif;
+}
+
+#banner{
+    padding-top: 5%;
+}
+#banner h1{
+    font-size: 3.6rem;
+}
+.promo-title{
+    font-size: .8888888889rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-rendering: auto;
+}
+#banner .btn-primary{
+    padding: 8px 25px;
+    background-color: blue;
+}
+#services{
+    padding: 80px 0;
+}
+.services-img{
+    width: 50px;
+    height: 50px;
+}
+.services{
+    padding: 20px;
+}
+.services h5{
+    padding: 5px;
+    margin-top: 25px;
+}
+.faq__panel {
+    padding: 7px 21px;
+    margin-top: 145px;
+    border-left: 2px solid black;
+
+}
+.faq__label{
+    padding-block: 7px;
+    color:black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.faq__panel-answer{
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.img-thumbnail {
+    padding: .2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-top: 54px;
+}
+.banner-about h4{
+    margin-left: 25px;
+    margin-top: 70px;
+    font-size: 22px;
+}
+.h2, h2 {
+    font-size: 2rem;
+    margin-top: 140px;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    margin-top: 42px;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.h6, h6,q {
+    font-size: 18px;
+    margin-top: 60px;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+    margin-top: 94px;
+}
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+    cursor: pointer;
+    color: lightgray;
+}
+.accordion a:hover::after {
+    border: 1px solid lightgrey;
+}
+.accordion a.active {
+    color: lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.accordion a::after {
+    font-family: 'Ionicons';
+    content: '\f218';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+}
+.accordion a.active::after {
+    font-family: 'Ionicons';
+    content: '\f209';
+    color: lightgray;
+    border: 1px solid lightgrey;
+}
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+}
+.btn-primary1 {
+    color: #fff;
+    background-color: #007bff;
+    margin-top: 35px;
+    border-color: #007bff;
+}
+.btn-primary2 {
+    color: #fff;
+    background-color: #007bff;
+    margin-top: 35px;
+    border-color: #007bff;
+}
+@media (max-width:576px){
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        margin-top: 35px;
+        margin-left: 125px;
+        border-color: #007bff;
+    }
+    .btn-primary1 {
+        color: #fff;
+        background-color: #007bff;
+        margin-top: 35px;
+        margin-left: 25px;
+        border-color: #007bff;
+    }
+    .btn-primary2 {
+        color: #fff;
+        background-color: #007bff;
+        margin-top: 35px;
+        margin-left: 25px;
+        border-color: #007bff;
+    }
+}

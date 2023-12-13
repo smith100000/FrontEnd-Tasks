@@ -1,0 +1,107 @@
+body {
+    font-family: 'Varela', sans-serif;
+}
+
+.navbar-nav>.nav-item {
+    padding: 0px 10px 0px 10px;
+}
+
+.hideData {
+    filter: blur(3px);
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+.getJobDetails {
+    cursor: pointer;
+    width: 185px;
+    text-decoration: underline;
+}
+
+.line-1 {
+    height: 2px;
+    background: #F37F29;
+    max-width: 40px;
+    margin: 1rem auto;
+}
+
+.getJobDetails:hover {
+    background: #337ab7;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.reqBtn {
+    border: 1px solid #dfdfdf;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+.coreData {
+    margin-bottom: 50px;
+}
+
+.username-public {
+    padding-right: 10px;
+    background-color: #c8c8c8;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+.email-public {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.reply-reaction-view {
+    display: none;
+}
+
+.record-view {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/* quesion.css*/

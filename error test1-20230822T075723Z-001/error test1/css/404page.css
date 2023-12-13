@@ -1,0 +1,176 @@
+body{
+    font-family: 'Varela', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.color {
+    margin-left: -179px;
+    position: relative;
+    width: 1480px;
+}
+h6 {
+    position: absolute;
+    margin-top: -390px;
+    font-size: 25px;
+    margin-left: 523px;
+    color: white;
+}
+h2 {
+    font-size: 70px;
+    margin-top: -356px;
+    margin-left: 495px;
+    position: absolute;
+}
+h5 {
+    font-size: 25px;
+    margin-top: -275px;
+    margin-left: 524px;
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 457px;
+    font-size: 15px;
+    color: white;
+}
+button{
+    margin-top: -165px;
+    position: absolute;
+    margin-left: -62px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+@media(max-width:1024px){
+    h6 {
+        position: absolute;
+        margin-top: -390px;
+        font-size: 25px;
+        margin-left: 585px;
+        color: white;
+    }
+    h2 {
+        font-size: 70px;
+        margin-top: -356px;
+        margin-left: 555px;
+        position: absolute;
+    }
+    h5 {
+        font-size: 25px;
+        margin-top: -275px;
+        margin-left: 587px;
+        position: absolute;
+    }
+    
+    h1 {
+        position: absolute;
+        margin-top: -215px;
+        margin-left: 515px;
+        color: white;
+    }
+    button {
+        margin-top: -147px;
+        position: absolute;
+        margin-left: 100px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+}
+@media(max-width:768px){
+    h6 {
+        position: absolute;
+        margin-top: -615px;
+        font-size: 45px;
+        margin-left: 585px;
+        color: white;
+    }
+    h2 {
+        font-size: 90px;
+        margin-top: -562px;
+        margin-left: 576px;
+        position: absolute;
+    }
+    h5 {
+        font-size: 43px;
+        margin-top: -469px;
+        margin-left: 587px;
+        position: absolute;
+    }
+    
+    h1{
+        margin-top: -356px;
+        color: white;
+        margin-left: 478px;
+    } 
+    button {
+        margin-top: -256px;
+        position: absolute;
+        margin-left: 185px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 25px;
+        width: 240px;
+    }
+}
+@media(max-width:455px){
+    .color {
+        margin-left: -179px;
+        position: relative;
+        width: 1480px;
+        height: 1430px;
+    }
+    
+    h1 {
+        position: absolute;
+        margin-top: -356px;
+        color: white;
+        margin-left: 590px;
+        font-size: 30px;
+    } 
+    button {
+        margin-top: -88px;
+        position: absolute;
+        margin-left: 325px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 25px;
+        width: 240px;
+    }
+}
+@media (max-width:385px){
+    button {
+        margin-top: -88px;
+        position: absolute;
+        margin-left: 355px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 25px;
+        width: 240px;
+    }
+}
+@media(max-width:335px){
+    button {
+        margin-top: -88px;
+        position: absolute;
+        margin-left: 385px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 25px;
+        width: 240px;
+    }
+}

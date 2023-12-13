@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/help.css">
+    <link rel="stylesheet" href="./css/scr.css">
+    <script src="https://kit.fontawesome.com/bd09fe1e3f.js" crossorigin="anonymous"></script>
+    <style>
+        section{
+            height: auto;  ;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light border">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand" title="Error Found"><img src="./img/errorFound.png" height="35px;" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <!-- this below two link should be appear in showcase page-->
+                    <!-- <li class="nav-item">
+                        <a href="./questions.html" class="nav-link">Collaborative</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./questions.html" class="nav-link">Experts</a>
+                    </li> -->
+                    <li class="nav-item active">
+                        <a href="./topics.html" class="nav-link">Topics</a>
+                    </li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                 Our Products</a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                                <a class="dropdown-item waves-effect waves-light" href="./collabrations1.html">Collabrations</a>
+                                <a class="dropdown-item waves-effect waves-light" href="./feed.html">Feed back</a>
+                                <!--<a class="dropdown-item waves-effect waves-light" href="./mySettings.html">Kalender</a>-->
+                                <a class="dropdown-item waves-effect waves-light" href="./hiring.html">Hirelt</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a href="./services1.html" class="nav-link">Services</a>
+                    </li>
+                </ul>
+                
+                
+
+                <ul class="nav navbar-nav navbar-right">
+
+                     <li class="nav-item d-lg-block d-none">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text form-control" style="background-color: white;">
+                                    <i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </li>
+
+                    <!-- pre login-->
+                    <!--<li class="nav-item"><a href="javascript:void(0)" data-toggle="modal" data-target="#logins" class="nav-link"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+                    <li class="nav-item"><a href="javascript:void(0)" data-toggle="modal" data-target="#logins" class="nav-link"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <!-- pre login-->
+
+                    <!-- post login -->
+                    <!-- <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="fa fa-gear"></i> Virat Kohli</a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                                <a class="dropdown-item waves-effect waves-light" href="./myOrders.html">Orders</a>
+                                <a class="dropdown-item waves-effect waves-light" href="./myProfile.html">Profile</a>
+                                <a class="dropdown-item waves-effect waves-light" href="./mySettings.html">Settings</a>
+                                <a class="dropdown-item waves-effect waves-light" href="#">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <li class="nav-item">
+                        <div class="input-group mx-2">
+                            <div class="input-group-prepend">
+                                <img src="https://www.gravatar.com/avatar/00000000000000000000000000000011?d=identicon&f=y" height="35px"/>
+                            </div>
+                        </div>
+                    </li> -->
+                    <!-- Above or Below-->
+                    <!-- <li class="nav-item btn-group">
+                        <div class="input-group mx-2">
+                            <div class="input-group-prepend">
+                                <img style="border-radius:6px;" src="https://s.gravatar.com/avatar/48902df5a9e2f88f5a37761084d6ac2f?s=35" />
+                            </div>
+                        </div>
+                    </li> -->
+                    <!-- end post login-->
+                </ul>
+
+                <!--
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link waves-effect waves-light" data-toggle="popover" title="(&#9733;&#9733;&#9733;&#9734;&#9734;)" data-content="Last Login 10:56 PM 26 Oct 2019">
+                    <i class="fa fa-user"></i> Mr. Virat Kohli </a>
+
+                    <a class="nav-link waves-effect waves-light" href="javascript:void(0)">
+                    <i class="fa fa-user"></i> Mr. Virat Kohli </a>
+                    
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="fa fa-gear"></i> My Account</a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                    <a class="dropdown-item waves-effect waves-light" href="./myOrders.html">Orders</a>
+                    <a class="dropdown-item waves-effect waves-light" href="./myProfile.html">Profile</a>
+                    <a class="dropdown-item waves-effect waves-light" href="./mySettings.html">Settings</a>
+                    <a class="dropdown-item waves-effect waves-light" href="#">Log out</a>
+                    </div>
+                </li>
+            </ul>
+            -->
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="text-center mb-5">
+          <span class="text-secondary text-uppercase">FAQ</span>
+          <h1 class="text-capitalize">Have Any Questions ?</h1>
+        </div>
+
+
+        <div class="header clearfix">
+            <div class="header-left">
+              <a href="#general-1">GENERAL</a>
+              <a href="#poster-1">POSTER</a>
+              <a href="#payment-1">PAYMENTS</a>
+              <a href="#shipping-1">SHIPPING</a>
+              <a href="#returns-1">RETURNS</a>
+              <a href="#refund-1">REFUNDS</a>
+            </div>
+        </div> 
+        
+    </div>
+         <section id="general-1">
+            <div class="container">
+                
+                <section class="demo" id="section01">
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                </br></br></br></br></br></br></br></br>
+                <div class="d-none d-lg-block pt-5">
+                    <a href="#section02"><span></span></a>
+                </div>
+            </section>
+            <section class="demo" id="section02" >
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </br></br></br></br></br></br></br></br>
+            <div class="d-none d-lg-block pt-5">
+                    <a href="#section03"><span></span></a>
+                </div>
+            </section>
+            <section class="demo" id="section03">
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </br></br></br></br></br></br></br></br>
+        </section>
+        <section id="poster-1">
+            <div class="container pt-4">
+            
+                <section class="demo " id="section04">
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </br></br></br></br></br></br></br></br>
+                <div class="d-none d-lg-block ">
+                    <a href="#section05"><span></span></a>
+                </div>
+            </section>
+            <section class="demo" id="section05">
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </br></br></br></br></br></br></br></br>
+                <div class="d-none d-lg-block pt-4">
+                    <a href="#section06"><span></span></a>
+                </div>
+            </section>
+            <section class="demo" id="section06">
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </br></br></br></br></br></br></br></br></br></br>
+        </section>
+        <section id="payment-1">
+            <div class="container pt-5">
+                
+                <div class="row pt-4" id="banner">
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </br></br></br></br></br></br></br></br></br></br>
+        </section>
+        <section id="shipping-1">
+            <div class="container">
+                
+                <div class="row" id="banner">
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </br></br></br></br></br></br></br></br></br></br>
+        </section> 
+        <section id="returns-1">
+            <div class="container">
+                
+                <div class="row" id="banner">
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </br></br></br></br></br></br></br></br></br></br>
+        </section> 
+        <section id="refund-1">
+            <div class="container">
+                
+                <div class="row" id="banner">
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+                <div class="row pt-4" id="banner">
+                    
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>What is your shipping policy?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsam vitae, voluptatum fugit distinctio molestias modi maiores, eos impedit voluptatibus suscipit tempore nihil dolores, inventore voluptas? Odio, aspernatur! Molestiae, sit!</p>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 20px;">
+                        <h5>Can I change the color  of the frame</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae id odio eveniet, atque magnam, adipisci eos voluptate reiciendis quibusdam mollitia porro accusamus deleniti nam delectus, maxime ex perspiciatis. Rerum.</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+            
+    </div>
+    <footer style="margin-top:80px">
+        <hr>
+        <div style="margin-bottom: 5px;text-align: center;">
+            <small><a href="./aboutus.html" style="color: black; text-decoration: none;">contact us</a> &nbsp;|&nbsp;<a href="./help.html" style="color: black; text-decoration: none;">faq</a> &nbsp;|&nbsp; <a href="./footerfeed.html" style="color: black; text-decoration: none;">Send Feedback</a> &nbsp;|&nbsp;<a href="./privacy1.html" style="color: black; text-decoration: none;"> Privacy </a>&nbsp;|&nbsp;<a href="./terms1.html" style="color: black; text-decoration: none"> Terms </a></small>
+        </div>
+        
+        <div style="text-align: center;margin-bottom: 15px;color:grey;">
+            <small>Copyright &copy; 2023</small> <small>Errorfound Inc, All rights reserved</small>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            // $(".toast").toast('show'); 
+        })
+
+           function myFunction() {
+  window.scrollBy(0, 300);
+ 
+}
+    </script>
+</body>
+</html>

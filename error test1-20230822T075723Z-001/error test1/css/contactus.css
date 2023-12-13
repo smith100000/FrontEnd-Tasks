@@ -1,0 +1,81 @@
+.icon{
+    height:27px; 
+    width: 34px;
+     border-radius: 5px;
+     text-align: center;
+}
+.button1{
+    border-radius: 20px;
+}
+.circle-1{
+    position: relative;
+    top:0.5rem;
+    left: 200px;
+    padding: 0px 4px;
+    border-radius: 100%;
+    background:#2aa9d9;
+    color: white;
+    
+
+}
+.number-1{
+    
+  color: white;
+  text-decoration: none;
+  
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+
+}
+
+  
+  .number-1 .badge {
+    position: absolute  ;
+    top: 0px;
+    right: 0px;
+    padding: 2px 6px;
+    
+    padding-bottom: 6px;
+    border-radius: 50%;
+    background:black;
+    text-align: center;
+    color: white;
+  }
+
+.photo{
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+    margin-left: 10px;
+    border-radius: 69%;
+}
+.name {
+    margin-top: 3px;
+    margin-left: 12px;
+    position: absolute;
+    font-size: 12px;
+}
+.bor{
+    
+    
+    padding-bottom: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+bg-container{
+  /* background-image: url("https://img.freepik.com/free-photo/aesthetic-minimal-white-grid-pattern-wallpaper_53876-96916.jpg?w=996&t=st=1691642202~exp=1691642802~hmac=b4ea5bb9a634844fb3f1d8af3e20b2c6cd22a6a77ded09a8d9269f12757c6e5f");
+  height: 100vh; */
+  overflow: hidden;
+  /* position: relative; */
+}
+.bg-div{
+  opacity: 0.04;
+  position: absolute;
+  left: 0;
+  top: 38px;
+
+  width: 100%;
+  height: 35%;
+}
